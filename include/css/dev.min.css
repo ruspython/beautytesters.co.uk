@@ -42,6 +42,9 @@ ul.features li {background: transparent url("../img/check.png") top left no-repe
 	.features {clear:both !important;}
 }
 
+.modal-popup p:first-child {
+    font-weight: bold;
+}
 .modal-popup img {
     width: 130px;
     float: left;
