@@ -52,6 +52,7 @@ document.onclick=reEnable
 <script src="js/pageJavascript.js"></script>
 <script src="js/load.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script src="js/vendors/jplayer/jquery.jplayer.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
 		$.PeriodicalUpdater({
@@ -166,6 +167,8 @@ var google_remarketing_only = true;
 </head>
 
 <body id="application" >
+
+
 <div class="modal-backdrop fade in"></div>
 <div class="modal hide fade in modal-popup" tabindex="-1" role="dialog" style="display: block;">
     <div class="modal-header">
@@ -822,7 +825,25 @@ var google_remarketing_only = true;
 	</div></div>
 
 
-		<footer><p>&copy; Copyright 2014 -  Productesters.co.uk - All Rights Reserved</p>
+		<footer>
+            <div class="player">
+                <div class="clearfix player__content">
+                    <div class="js-player"></div>
+                    <a href="#" class="js-play player-sprite player__play"></a>
+                    <a href="#" class="js-pause player-sprite player__pause"></a>
+
+                    <div class="player-sprite player__bar">
+                        <div class="js-play-bar player-sprite player__bar__filler"></div>
+                    </div>
+                </div>
+                <div class="js-no-solution player__update" style="display: none;">
+                    To play the media you will need to either update your browser to a recent version or update your <a
+                        href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                </div>
+            </div>
+
+            <p>&copy; Copyright 2014 -  Productesters.co.uk - All Rights Reserved</p>
+
 		  <p>All trademarks on this web site whether registered or not, are the property of their respective owners. The authors of this web site are not sponsored by or affiliated with any of the third-party trade mark or third-party registered trade mark owners, and make no representations about them, their owners, their products or services.</p>
 		</footer>
 

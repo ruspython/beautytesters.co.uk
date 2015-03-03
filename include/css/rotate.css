@@ -10,7 +10,8 @@
 .carousel #loadMessage, .carousel #finishedMessage {
     color: #D7455D;
     display: block;
-    font-family: Georgia,times,san-serif;
+    /*font-family: Georgia,times,san-serif;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
 }
 
