@@ -1,0 +1,77 @@
+.carousel .dealSearch {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 10px 10px 10px 10px;
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel #loadMessage, .carousel #finishedMessage {
+    color: #D7455D;
+    display: block;
+    font-family: Georgia,times,san-serif;
+    font-size: 22px;
+}
+
+.carousel .dealSearch {
+    text-align: center;
+}
+
+
+.carousel #rotating-item-wrapper {
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    width: 240px;
+}
+
+
+.carousel #pb {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+.carousel #progression {
+    font-family: arial,sans-serif;
+    font-weight: 700;
+    height: 50px;
+    margin: 10px auto;
+
+}
+
+.carousel #step1, .carousel #step2, .carousel #step3 {
+    background-color: #666666;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-family: arial,sans-serif;
+    font-weight: 700;
+    height: 44px;
+    margin: 0 5px;
+    padding: 14px 3px 3px;
+    width: 160px;
+}
+
+
+.carousel #step1 p, .carousel #step2 p, .carousel #step3 p {
+    line-height: 1;
+    margin: 0;
+    vertical-align: middle;
+}
+.carousel img {
+    border: 0 none;
+	min-height:180px;
+}
+
+.carousel .rotating-item {
+    display: none;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 230px;
+}
